@@ -4,3 +4,6 @@ public class ReservedWords {
         System.out.println(WORDS);
     }
 }
+
+// THERE ARE TOTAL 53 RESERVED WORDS IN JAVA
+
