@@ -5,3 +5,6 @@ public class ForEachLoop {
         }
     }
 }
+
+
+//HERE THE OUTPUT WILL BE THE ARGUMENT WHAT WE HAVE PROVIDED 
