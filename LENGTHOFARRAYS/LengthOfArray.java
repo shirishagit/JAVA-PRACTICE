@@ -1,3 +1,4 @@
+package LENGTHOFARRAYS;
 public class LengthOfArray {
     public static void main(String[] args){
         int[][] x = new int[6][];//This is a two Dimensional Array with size 6
