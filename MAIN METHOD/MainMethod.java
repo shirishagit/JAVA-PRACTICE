@@ -3,7 +3,7 @@ public class MainMethod {
         System.out.println("string[]");
     }
     public static void main(int[] args) {
-        System.out.println("int []");
+        System.out.println("int []");//method overloading
     }
 }
 
@@ -12,4 +12,4 @@ public class MainMethod {
 //WE CANNOT DECLEARE A CLASS WITHOUT MAIN METHOD
 //JVM ALWAYS SEARCHERS FOR MAIN METHOD ONLY
 //IN THE ABOVE CODE IS CALLED OVERLOADING
-//THE OUTPUT IS SRTING[]V ONLY
+//THE OUTPUT IS SRTING[] ONLY
