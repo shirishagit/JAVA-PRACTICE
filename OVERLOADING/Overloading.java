@@ -1,4 +1,6 @@
-public class Demo {
+package OVERLOADING;
+
+public class Overloading {
     public void m1(){
         System.out.println("no-arg method");
     }
@@ -10,11 +12,10 @@ public class Demo {
     }
 
     public static void main(String[] args) {
-        Demo d = new Demo();
+        Overloading d = new Overloading();
         d.m1();
         d.m1(10);
         d.m1(10.5);
 
     }
-     
 }
