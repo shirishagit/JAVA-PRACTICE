@@ -1,3 +1,4 @@
+package OVERRIDING;
  class MainOverriding {
     public void indemandSkill(){
         System.out.println("java");
@@ -18,6 +19,7 @@ public class Overriding{
         o.indemandSkill();
         InnerOverriding i = new InnerOverriding();
         i.indemandSkill();
+        
     }
     
 }
