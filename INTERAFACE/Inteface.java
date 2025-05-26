@@ -1,3 +1,4 @@
+package INTERAFACE;
 interface Inteface {
    int x= 10;
 }
