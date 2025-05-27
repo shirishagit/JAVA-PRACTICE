@@ -13,9 +13,7 @@ class child extends parent{
 public class MethodHiding {
 
     public static void main(String[] args) {
-      
-         parent.p();
-         child.p();
+       parent.p();
    
       
     }

@@ -1,4 +1,4 @@
-package OVERRIDING;
+
  class MainOverriding {
     public void indemandSkill(){
         System.out.println("java");
