@@ -4,7 +4,7 @@ public class CheckedExecption {
         try {
              System.out.println(10/0);
         } catch (ArithmeticException e) {
-            System.out.println("error will be occured");
+            System.out.println(e);
         }
        
     }

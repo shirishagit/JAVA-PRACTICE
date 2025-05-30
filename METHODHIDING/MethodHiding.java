@@ -1,11 +1,11 @@
 class parent {
-    public static void p(){
+    public  void p(){
         System.out.println("parent method");
     }
 }
 
 class child extends parent{
-    public static void p(){
+    public  void p(){
         System.out.println("child method");
     }
 }
@@ -13,8 +13,10 @@ class child extends parent{
 public class MethodHiding {
 
     public static void main(String[] args) {
-       parent.p();
-   
-      
+        parent parentRef = new child();
+        parentRef.p(); 
     }
 }
+
+//THE ABOVE METHOD IS CALLED METHODHIDING
+//
