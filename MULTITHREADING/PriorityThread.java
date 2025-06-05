@@ -1,4 +1,4 @@
-class InnerPriorityThread {
+class InnerPriorityThread  extends Thread{
    
 }
 
