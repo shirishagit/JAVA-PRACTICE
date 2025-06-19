@@ -3,6 +3,7 @@ public class InterningString {
         String s = new String("9Sai");
         String s1 = s.intern();
         System.out.println(s == s1); // Fales
+        
         String s2 = "9Sai";
         System.out.println(s1 == s2); // True
     }
