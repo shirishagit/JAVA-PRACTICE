@@ -8,8 +8,6 @@ public class File1 {
         System.out.println(f.exists()); //this line again check is there any file and returns true
         System.out.println(f.isFile());  // returns true if the specified file is pointing to physical file or not
       
-        
-
 
     }
 }
