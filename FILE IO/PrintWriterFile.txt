@@ -1,0 +1,2 @@
+PrintWriter is recommanded to write any type of data to file
+This line is executed in same line This line also prints data in same line
