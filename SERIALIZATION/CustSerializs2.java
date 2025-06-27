@@ -5,9 +5,22 @@
 
 class Account1 implements Serializable{
     String Username = "siri";
-    transient int PassWord = 191130;
+    transient String PassWord = "sirisha";
     private static final long serialVersionUID = 1L;
-    
+    private void writeObject(ObjectOutputStream os) throws Exception{
+        os.defaultWriteObject();
+        String epassword = "123" + PassWord;
+        os.writeObject(epassword);
+
+    }
+    private void readObject(ObjectInputStream oi ) throws Exception {
+        oi.defaultReadObject();
+    String epassword = (String)oi.readObject();
+    PassWord = epassword.substring(3);
+
+    }
+   
+}
 
 
 
@@ -26,6 +39,7 @@ public class CustSerializs2 {
         System.out.println(a1.Username + "...." + a1.PassWord);
       
         ois.close();
+        
     }
 
 
