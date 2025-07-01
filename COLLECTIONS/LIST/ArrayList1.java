@@ -7,8 +7,12 @@ public class ArrayList1 {
         ar.add(50);
         ar.add(88);
         ar.add(44);
+        ar.add(null);
+
         System.out.println(ar);
         System.out.println(ar.size());
         System.out.println(ar.indexOf(44));
     }
 }
+
+
