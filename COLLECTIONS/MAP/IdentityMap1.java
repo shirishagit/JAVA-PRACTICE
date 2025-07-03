@@ -1,4 +1,4 @@
-import java.util.HashMap;
+import java.util.*;
 import java.util.IdentityHashMap;
 
 
@@ -13,3 +13,5 @@ public class IdentityMap1 {
 
     }  
 }
+//IdentityHashmap is a child of map 
+// 
