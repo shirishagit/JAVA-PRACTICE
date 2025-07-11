@@ -1,16 +1,23 @@
-public class Demo {
-    
-    public static void main(String[] args) {
-         String original = "madam";
-        String s = new StringBuffer().reverse().toString();
-          if (s.equals(original)) {
-            System.out.println(original + " Is not Palindrome");
-          }else {
-            System.out.println(original + " Is Palindrome");
-          }
+// Java program to find factorial
+// of given number
 
+// Driver Class
+class Demo {
+    // Method to find factorial
+    // of given number
+    static int factorial(int n)
+    {
+        int res = 1, i;
+        for (i = 2; i <= n; i++)
+            res *= i;
+        return res;
     }
-    
-   
-    
+
+    // main method
+    public static void main(String[] args)
+    {
+        int num = 3;
+        System.out.println("Factorial of " + num + " is "
+                           + factorial(3));
+    }
 }
