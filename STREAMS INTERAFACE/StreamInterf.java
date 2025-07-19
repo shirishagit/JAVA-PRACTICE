@@ -1,5 +1,5 @@
 import java.util.*;
-import java.util.stream.Collector;
+import java.util.stream.Collectors;
 
 
 public class StreamInterf {
@@ -13,7 +13,10 @@ public class StreamInterf {
         ai.add(6);
         ai.add(9);
         System.out.println(ai);
-        ArrayList<Integer> r =  ai.stream().map((n)->n+2).count();
+        List<Integer> r = ai.stream()
+                    .map(i -> i + 2)
+                    .collect(Collectors.toList());
+                    System.out.println(r);
     }
     
 }
