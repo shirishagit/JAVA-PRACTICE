@@ -2,6 +2,7 @@ public class REgexString {
     public static void main(String[] args) {
         System.out.println("Next steps");
         System.out.println("Regular expression");
-        System.out.println("Shirisha");
+        System.out.println("string is an object");
+        System.out.println("Arrays is also considered as object");
     }
 }
