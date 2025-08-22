@@ -5,6 +5,7 @@ public class REgexString {
         System.out.println("string is an object");
         System.out.println("Arrays is also considered as object");
         System.out.println("Staring is also considered as a object");
-        System.out.println("java is a object oriented language");
+        System.out.println("java is a object oriented languagex`");
+        System.out.println("StringBuilder is mutable");
     }
 }
