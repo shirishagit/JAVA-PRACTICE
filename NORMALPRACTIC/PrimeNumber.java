@@ -17,6 +17,8 @@ public class PrimeNumber {
             
         
     }
+
+    System.out.println("hello");
 }
     }
 }
