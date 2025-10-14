@@ -4,8 +4,6 @@ public class Scanner1 {
         Scanner c = new Scanner(System.in);
         System.out.println("Welcome");
         c.nextLine();
-
-
         c.close();
       
 
